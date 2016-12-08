@@ -18,7 +18,7 @@ RSpec.describe AddressBook do
      end
    end
 
-context "#remove_entry" do
+describe "#remove_entry" do
   it "removes an entry using the name, phone_number, and email address" do
     book = AddressBook.new
     book.add_entry('Bohan Chen', '010.012.1815', 'augusta.king@lovelace.com')
